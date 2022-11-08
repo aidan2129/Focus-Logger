@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
-using System.Windows.Automation; 
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -39,8 +38,6 @@ namespace App1
                new Item { Id=2, Name="Hat", Description="Test" }
             };
             this.InitializeComponent();
-            for (int i = 0; i < List.Lenght, i++) {
-                ListBoxName.Items.Add(MyObjectList[i]);
         }
 
         private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
