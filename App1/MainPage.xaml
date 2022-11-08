@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource AppBarItemBackgroundThemeBrush}">
+
+    <Grid>
+        <ListView SelectionChanged="ListView_SelectionChanged" Background="#7F000000">
+            <ListViewItem>Hello world</ListViewItem>
+        </ListView>
+           <Button x:Name="ClearLogs" Content="Clear" Height="80" Width="160" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="#33FF0000" Margin="0,0,20,20"/>
+    </Grid>
+</Page>
